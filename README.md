@@ -1,8 +1,11 @@
-# React + Vite
+# How to Deploy a React App with React Router DOM
+[Tutorial](https://youtu.be/9wwdIyzX6cY)
+For deploying a react app on a shared hosting you need to create a production build. Production build/dist is a pack of all your react code and its dependencies. In most shared hosting we put our site/app inside a public_html directory so if we hit www.yourdomain.com it serves the code from public_html directory. Follow along with this short video to get your react project up and running in less than 4 minutes.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Run React App Build command: npm run build
+- Remember to zip the build folder to successfully upload the project to any hosting platform.
+- Congratulations, your is now up and running.
 
-Currently, two official plugins are available:
+[Tutorial](https://youtu.be/9wwdIyzX6cY)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
